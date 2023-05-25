@@ -19,4 +19,8 @@ These are the data points that show how well your social media strategy is perfo
    Engagement Rate measures the number of engagements (reactions, comments and shares) your content gets as a percentage of your audience.
 
 5. Amplification rate
-   Amplification Rate is the ratio of shares per post to the number of overall followers.
+   Amplification Rate is the ratio of shares per post to the number of overall followers. Basically, the higher your amplification rate, the more your followers are    expanding your reach for you.
+
+6. Virality rate
+   -Measures how your content is spreading exponentially. Virality rate is similar to amplification rate in that it measures how much your content is shared.
+
