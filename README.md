@@ -2,6 +2,8 @@
 
 These are the data points that show how well your social media strategy is performing.
 
+## Awareness metrics
+
 1. Reach
    The number of people who see you content. By monitering the reach of individual post we will be able to identify the how the content is viewed according to the 
    content and the time at which it is being posted.
@@ -15,12 +17,18 @@ These are the data points that show how well your social media strategy is perfo
    Audience growth rate measures how many new followers your brand gets on social media within a certain amount of time.
    It is usually measured as percentage increase compared to your old followers.
 
+## Engagement Metrices
+
 4. Engagement Rate
    Engagement Rate measures the number of engagements (reactions, comments and shares) your content gets as a percentage of your audience.
 
 5. Amplification rate
-   Amplification Rate is the ratio of shares per post to the number of overall followers. Basically, the higher your amplification rate, the more your followers are    expanding your reach for you.
+   Amplification Rate is the ratio of shares per post to the number of overall followers. Basically, the higher your amplification rate, the more your followers      are expanding your reach for you.
 
 6. Virality rate
    -Measures how your content is spreading exponentially. Virality rate is similar to amplification rate in that it measures how much your content is shared.
 
+## Video Metrices
+
+1. Video views
+   
