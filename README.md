@@ -31,4 +31,4 @@ These are the data points that show how well your social media strategy is perfo
 ## Video Metrices
 
 1. Video views
-   
+   If you’re creating videos (you’re creating videos, right?), you want to know how many people are watching them. Each social network determines what counts as a “view” a little differently, but usually, even a few seconds of watch time counts as a “view.”
