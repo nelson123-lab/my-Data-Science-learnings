@@ -12,3 +12,7 @@ These are the data points that show how well your social media strategy is perfo
    eg: If your content is more attractive or more the interested with the viewers the chances of people viewing the content mulitple times are higher.
    
 3. Audience growth rate
+   Audience growth rate measures how many new followers your brand gets on social media within a certain amount of time.
+   It is usually measured as percentage increase compared to your old followers.
+
+4. 
