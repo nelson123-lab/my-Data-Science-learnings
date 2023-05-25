@@ -19,16 +19,35 @@ These are the data points that show how well your social media strategy is perfo
 
 ## Engagement Metrices
 
-4. Engagement Rate
+1. Engagement Rate
    Engagement Rate measures the number of engagements (reactions, comments and shares) your content gets as a percentage of your audience.
 
-5. Amplification rate
+2. Amplification rate
    Amplification Rate is the ratio of shares per post to the number of overall followers. Basically, the higher your amplification rate, the more your followers      are expanding your reach for you.
 
-6. Virality rate
+3. Virality rate
    -Measures how your content is spreading exponentially. Virality rate is similar to amplification rate in that it measures how much your content is shared.
 
 ## Video Metrices
 
 1. Video views
-   If you’re creating videos (you’re creating videos, right?), you want to know how many people are watching them. Each social network determines what counts as a “view” a little differently, but usually, even a few seconds of watch time counts as a “view.”
+   how many people are watching your videos. Each social network determines what counts as a “view”. even a few seconds of watch time counts as a “view.”
+   
+2. Video completion rate
+   Shows how many people are actually completely watching your videos from start to finish. This shows your content is more engaging to the viewers.   
+
+## Customer experience and service metrics
+
+1. Customer satisfaction (CSAT) score
+3. Net promoter score (NPS)
+
+## ROI metrics
+
+5. Click-through rate (CTR)
+6. Conversion rate
+7. Cost-per-click (CPC)
+8. Cost per thousand impressions (CPM)
+
+## Share of voice and sentiment metrics
+1. Social share of voice (SSoV)
+2. Social sentiment
