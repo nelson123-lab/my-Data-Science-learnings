@@ -15,4 +15,8 @@ These are the data points that show how well your social media strategy is perfo
    Audience growth rate measures how many new followers your brand gets on social media within a certain amount of time.
    It is usually measured as percentage increase compared to your old followers.
 
-4. 
+4. Engagement Rate
+   Engagement Rate measures the number of engagements (reactions, comments and shares) your content gets as a percentage of your audience.
+
+5. Amplification rate
+   Amplification Rate is the ratio of shares per post to the number of overall followers.
