@@ -39,7 +39,10 @@ These are the data points that show how well your social media strategy is perfo
 ## Customer experience and service metrics
 
 1. Customer satisfaction (CSAT) score
-3. Net promoter score (NPS)
+   Customer service metrics are not just about response times and response rates. CSAT (customer satisfaction score), is a metric that measures how happy 
+   people are with your product or service.
+   
+2. Net promoter score (NPS)
 
 ## ROI metrics
 
