@@ -43,6 +43,8 @@ These are the data points that show how well your social media strategy is perfo
    people are with your product or service.
    
 2. Net promoter score (NPS)
+   NPS, is a metric that measures customer loyalty.
+   Unlike CSAT, NPS is good at predicting future customer relationships.
 
 ## ROI metrics
 
