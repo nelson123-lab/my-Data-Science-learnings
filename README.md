@@ -65,4 +65,7 @@ These are the data points that show how well your social media strategy is perfo
 
 ## Share of voice and sentiment metrics
 1. Social share of voice (SSoV)
+   Social share of voice measures how many people are talking about your brand on social media compared to your competitors.
+   
 2. Social sentiment
+   Whereas SSoV tracks your share of the social conversation, social sentiment tracks the feelings and attitudes behind the conversation. When people talk about      you online, are they saying positive or negative things?
