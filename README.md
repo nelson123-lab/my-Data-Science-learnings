@@ -52,9 +52,12 @@ These are the data points that show how well your social media strategy is perfo
    Click-through rate, or CTR, is how often people click a link in your post to access additional content. That could be anything from a blog 
    post to your online store
    
-7. Conversion rate
-8. Cost-per-click (CPC)
-9. Cost per thousand impressions (CPM)
+2. Conversion rate
+   Conversion rate measures how often your social content starts the process to a conversion event like a subscription, download, or sale. This is one of 
+   the most important social media marketing metrics because it shows the value of your social content as a means of feeding your funnel.
+
+3. Cost-per-click (CPC)
+10. Cost per thousand impressions (CPM)
 
 ## Share of voice and sentiment metrics
 1. Social share of voice (SSoV)
