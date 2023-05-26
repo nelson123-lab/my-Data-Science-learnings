@@ -48,10 +48,13 @@ These are the data points that show how well your social media strategy is perfo
 
 ## ROI metrics
 
-5. Click-through rate (CTR)
-6. Conversion rate
-7. Cost-per-click (CPC)
-8. Cost per thousand impressions (CPM)
+1. Click-through rate (CTR)
+   Click-through rate, or CTR, is how often people click a link in your post to access additional content. That could be anything from a blog 
+   post to your online store
+   
+7. Conversion rate
+8. Cost-per-click (CPC)
+9. Cost per thousand impressions (CPM)
 
 ## Share of voice and sentiment metrics
 1. Social share of voice (SSoV)
