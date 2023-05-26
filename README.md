@@ -57,7 +57,11 @@ These are the data points that show how well your social media strategy is perfo
    the most important social media marketing metrics because it shows the value of your social content as a means of feeding your funnel.
 
 3. Cost-per-click (CPC)
-10. Cost per thousand impressions (CPM)
+   Cost-per-click, or CPC, is the amount you pay per individual click on a social ad.
+   
+4. Cost per thousand impressions (CPM)
+   Cost per thousand impressions, or CPM, is exactly what it sounds like. It’s the cost you pay for every thousand impressions of your social media ad.
+   CPM is all about views, not actions.
 
 ## Share of voice and sentiment metrics
 1. Social share of voice (SSoV)
