@@ -20,7 +20,9 @@ These are the data points that show how well your social media strategy is perfo
 ## Engagement Metrices
 
 1. Engagement Rate
-   Engagement Rate measures the number of engagements (reactions, comments and shares) your content gets as a percentage of your audience.
+   - Engagement Rate measures the number of engagements (reactions, comments and shares) your content gets as a percentage of your audience.
+   - Engagement Rate is the percentage of people/customers that made engagement with your posts in the form of comments, likes, shares etc ammong the                  people/customers who viewed the post.
+   - **Engagement Rate = (Total Engagements / Total Impressions) * 100%**
 
 2. Amplification rate
    Amplification Rate is the ratio of shares per post to the number of overall followers. Basically, the higher your amplification rate, the more your followers      are expanding your reach for you.
