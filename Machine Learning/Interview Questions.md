@@ -30,4 +30,13 @@ How do you handle data imbalance issues?
 
   The choice of technique depends on the specific problem and the characteristics of the data. It is important to evaluate the performance of the model on both     the majority and minority classes to ensure that the model is not biased towards one class.
 
+Explain Gradient descent and Stochastic gradient descent. Which one would you prefer?
+
+- Gradient descent and stochastic gradient descent are optimization algorithms used to minimize the cost function of a machine learning model during training.
+- Gradient descent is an iterative optimization algorithm that updates the model parameters in the direction of the negative gradient of the cost function. The     gradient is calculated using the entire training dataset, which can be computationally expensive for large datasets. The algorithm updates the model parameters   by taking a step in the direction of the negative gradient, with the step size determined by the learning rate.
+- Stochastic gradient descent (SGD) is a variant of gradient descent that updates the model parameters using a single randomly selected instance from the training   dataset at each iteration. This makes the algorithm much faster than gradient descent, especially for large datasets. The algorithm updates the model parameters   by taking a step in the direction of the negative gradient of the cost function for the selected instance, with the step size determined by the learning rate.
+
+- In general, I would prefer stochastic gradient descent over gradient descent because it is faster and more efficient, especially for large datasets. However,     SGD can be more sensitive to the learning rate and may require more tuning of hyperparameters to achieve good performance. Additionally, SGD can be prone to       getting stuck in local minima, which can be addressed by using techniques such as momentum or adaptive learning rates.
+
+- Overall, the choice of optimization algorithm depends on the specific problem and the characteristics of the data. It is important to evaluate the performance     of the model using different optimization algorithms to determine the best approach.
 
