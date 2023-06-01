@@ -135,8 +135,28 @@ Can you use MSE for evaluating your classification problem instead of Cross entr
 
 How does the loss curve for Cross entropy look?
 
+- The loss curve for Cross-Entropy typically looks like a decreasing curve over time as the model is trained. The loss function measures the difference between     the predicted probability distribution and the true probability distribution of the classes, and the goal of training the model is to minimize this difference.
+
+- At the beginning of training, the loss is usually high as the model makes random predictions. As the model is trained, the loss decreases as the model learns to   make better predictions. The rate of decrease in the loss depends on the complexity of the problem and the architecture of the model.
+
+- In general, the loss curve for Cross-Entropy should be decreasing over time, and it should eventually converge to a minimum value. If the loss curve is not       decreasing or if it is fluctuating, it may indicate that the model is not learning effectively or that the training process needs to be adjusted.
+
+- It is important to monitor the loss curve during training to ensure that the model is learning effectively and to identify any issues that may arise during the   training process.
+
 What does the “minus” in cross-entropy mean?
 
-Explain how Momentum differs from RMS prop optimizer?
+- The "minus" in Cross-Entropy refers to the fact that the loss function is a measure of the dissimilarity between the predicted probability distribution and the   true probability distribution of the classes. The loss function is defined as the negative log-likelihood of the true class labels given the predicted             probabilities.
 
+- The negative sign in the loss function is used to convert the likelihood into a cost function that can be minimized during training. By minimizing the negative   log-likelihood, the model is encouraged to make predictions that are closer to the true probability distribution of the classes.
+
+- In summary, the "minus" in Cross-Entropy is used to convert the likelihood into a cost function that can be minimized during training, and it is a measure of     the dissimilarity between the predicted probability distribution and the true probability distribution of the classes.
+
+Explain how Momentum differs from RMS prop optimizer?
+- Momentum and RMSprop are both optimization algorithms that are used to update the weights of a neural network during training. While both algorithms are based     on the gradient descent algorithm, they differ in how they update the weights.
+
+- Momentum is an optimization algorithm that adds a fraction of the previous weight update to the current weight update. This fraction is called the momentum       coefficient, and it helps to smooth out the weight updates and prevent oscillations during training. The momentum coefficient is typically set to a value --       between 0 and 1, with higher values resulting in more smoothing of the weight updates.
+
+- RMSprop, on the other hand, is an optimization algorithm that uses a moving average of the squared gradients to adjust the learning rate of each weight. The       moving average helps to reduce the impact of noisy gradients and prevent the learning rate from becoming too large or too small. The learning rate is adjusted     separately for each weight, which can help to improve the convergence of the training process.
+
+- In summary, Momentum and RMSprop differ in how they update the weights during training. Momentum adds a fraction of the previous weight update to the current     weight update, while RMSprop uses a moving average of the squared gradients to adjust the learning rate of each weight. Both algorithms can be effective in       improving the convergence of the training process, and the choice between them depends on the specific characteristics of the problem and the architecture of     the model.
 
