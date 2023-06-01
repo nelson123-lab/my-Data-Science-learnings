@@ -125,6 +125,18 @@ When there are highly correlated features in a dataset, the weights for L1 and L
 
 Can you use MSE for evaluating your classification problem instead of Cross entropy?
 
+- No, Mean Squared Error (MSE) is not an appropriate evaluation metric for classification problems. MSE is a loss function that is commonly used for regression     problems, where the goal is to predict a continuous output variable. In contrast, classification problems involve predicting a categorical output variable, and   the evaluation metrics used for classification problems are different from those used for regression problems.
+
+- For classification problems, Cross-Entropy is a commonly used evaluation metric. Cross-Entropy measures the difference between the predicted probability           distribution and the true probability distribution of the classes. It is a more appropriate metric for classification problems because it takes into account the   probabilistic nature of the predictions.
+
+- There are different types of Cross-Entropy metrics that can be used depending on the specific characteristics of the classification problem. For example, Binary   Cross-Entropy is used for binary classification problems, while Categorical Cross-Entropy is used for multi-class classification problems.
+
+- In summary, MSE is not an appropriate evaluation metric for classification problems, and Cross-Entropy is a more appropriate metric that takes into account the   probabilistic nature of the predictions.
+
 How does the loss curve for Cross entropy look?
+
+What does the “minus” in cross-entropy mean?
+
+Explain how Momentum differs from RMS prop optimizer?
 
 
