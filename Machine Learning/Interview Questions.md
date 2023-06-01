@@ -79,3 +79,10 @@ What are Eigeon values and Eigen vector in PCA?
 - To perform PCA, we first calculate the covariance matrix of the data. We then calculate the eigenvectors and eigenvalues of the covariance matrix. The             eigenvectors are sorted in descending order of their corresponding eigenvalues, and the top k eigenvectors are selected to form the new coordinate system. The     data is then transformed into the new coordinate system by multiplying it with the eigenvectors.
 
 - PCA is a powerful technique for dimensionality reduction and feature extraction. It can be used to reduce the dimensionality of high-dimensional data while       preserving the most important information. By selecting the top k principal components, we can reduce the dimensionality of the data to k dimensions while         retaining the maximum amount of variance in the data.
+
+Explain different types of Optimizers — How is Adam optimizer different from Rmsprop?
+
+- Optimizers are algorithms that help in updating the weights and biases of a neural network during training. There are several types of optimizers, including       Gradient Descent, Momentum, RMSProp, and Adam.
+- RMSProp and Adam are both extensions of the stochastic gradient descent algorithm. RMSProp adjusts the learning rate of each weight based on the magnitude of     recent gradients for that weight, while Adam combines the heuristics of both Momentum and RMSProp.
+- The main difference between RMSProp and Adam is that Adam uses a moving average of the gradient instead of the gradient itself, which helps to reduce the         variance of the parameter updates. Additionally, Adam includes bias correction terms to account for the fact that the moving averages are initialized at zero.
+- In summary, while both RMSProp and Adam are effective optimization algorithms, Adam is generally considered to be more robust and efficient due to its use of     moving averages and bias correction terms.
