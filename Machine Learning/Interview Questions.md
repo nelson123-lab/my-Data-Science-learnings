@@ -122,3 +122,5 @@ When there are highly correlated features in a dataset, the weights for L1 and L
 - In the case of L2 regularization, highly correlated features can lead to the weights being spread out more evenly across the features, as the penalty term         encourages the weights to be small but does not force any of them to be exactly zero. This can result in a more stable model that is less affected by small       changes in the input data. However, L2 regularization may not be as effective as L1 regularization in identifying and removing redundant features.
 
 - In general, the choice between L1 and L2 regularization depends on the specific characteristics of the dataset and the goals of the modeling task. If the         dataset has many irrelevant features, L1 regularization may be more effective in identifying and removing these features. If the dataset has many relevant         features, L2 regularization may be more effective in preventing overfitting and improving the generalization performance of the model.
+
+Can you use MSE for evaluating your classification problem instead of Cross entropy?
