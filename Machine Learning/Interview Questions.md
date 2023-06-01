@@ -86,3 +86,20 @@ Explain different types of Optimizers — How is Adam optimizer different from R
 - RMSProp and Adam are both extensions of the stochastic gradient descent algorithm. RMSProp adjusts the learning rate of each weight based on the magnitude of     recent gradients for that weight, while Adam combines the heuristics of both Momentum and RMSProp.
 - The main difference between RMSProp and Adam is that Adam uses a moving average of the gradient instead of the gradient itself, which helps to reduce the         variance of the parameter updates. Additionally, Adam includes bias correction terms to account for the fact that the moving averages are initialized at zero.
 - In summary, while both RMSProp and Adam are effective optimization algorithms, Adam is generally considered to be more robust and efficient due to its use of     moving averages and bias correction terms.
+
+What are the different types of activation functions and explain about vanishing gradient problem
+
+- Activation functions are mathematical functions that are applied to the output of a neural network layer to introduce non-linearity into the model. There are     several types of activation functions, including:
+
+  1. Sigmoid: This function maps any input to a value between 0 and 1, making it useful for binary classification problems.
+
+  2. ReLU (Rectified Linear Unit): This function returns the input if it is positive, and 0 otherwise. It is commonly used in deep learning models due to its          simplicity and effectiveness.
+
+  3. Tanh (Hyperbolic Tangent): This function maps any input to a value between -1 and 1, making it useful for classification problems.
+
+  4. Softmax: This function is used in the output layer of a neural network for multi-class classification problems. It maps the output to a probability                distribution over the classes.
+
+- The vanishing gradient problem occurs when the gradients of the loss function with respect to the weights in the lower layers of a deep neural network become     very small. This can happen when using activation functions such as sigmoid or tanh, which have gradients that approach zero as the input becomes very large or   very small. When the gradients become very small, the weights in the lower layers of the network are not updated effectively, leading to slow convergence or       even stagnation of the training process.
+
+- To address the vanishing gradient problem, activation functions such as ReLU and its variants have been developed, which have gradients that do not approach       zero for large or small inputs. Additionally, techniques such as weight initialization, batch normalization, and residual connections can also help to mitigate   the vanishing gradient problem.
+
