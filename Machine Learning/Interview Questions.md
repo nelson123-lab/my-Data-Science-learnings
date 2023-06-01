@@ -115,3 +115,10 @@ What do L1 and L2 regularization mean and when would you use L1 vs. L2? Can you 
 
 - In summary, L1 regularization is useful when the data has many irrelevant features, L2 regularization is useful when the data has many relevant features, and     Elastic Net regularization can be useful when the data has many features of both types.
 
+When there are highly correlated features in a dataset, the weights for L1 and L2 regularization can be affected in different ways.
+
+- In the case of L1 regularization, highly correlated features can lead to instability in the weights, as the penalty term can cause the weights to be set to zero   or to very small values. This can result in a model that is less accurate and less interpretable. However, L1 regularization can also be useful in identifying     and removing redundant features, which can improve the performance of the model.
+
+- In the case of L2 regularization, highly correlated features can lead to the weights being spread out more evenly across the features, as the penalty term         encourages the weights to be small but does not force any of them to be exactly zero. This can result in a more stable model that is less affected by small       changes in the input data. However, L2 regularization may not be as effective as L1 regularization in identifying and removing redundant features.
+
+- In general, the choice between L1 and L2 regularization depends on the specific characteristics of the dataset and the goals of the modeling task. If the         dataset has many irrelevant features, L1 regularization may be more effective in identifying and removing these features. If the dataset has many relevant         features, L2 regularization may be more effective in preventing overfitting and improving the generalization performance of the model.
