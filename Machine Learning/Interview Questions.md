@@ -68,3 +68,14 @@ Can you explain logistic regression and derive gradient descent for Logistic reg
   = w - alpha * 1/m * sum((sigmoid(z)-y)*x)
   = w - alpha * 1/m * sum((sigmoid(w*x)-y)*x)
 - This is the weight update rule for logistic regression using gradient descent. We can use this rule to iteratively update the weights until convergence.
+
+What are Eigeon values and Eigen vector in PCA? 
+- In Principal Component Analysis (PCA), eigenvalues and eigenvectors are used to transform the original data into a new coordinate system that captures the         maximum amount of variance in the data.
+
+- Eigenvalues represent the amount of variance explained by each principal component. They are the scaling factor for the corresponding eigenvectors and indicate   the importance of each principal component in explaining the variance in the data. The larger the eigenvalue, the more important the corresponding principal       component is in capturing the variance in the data.
+
+- Eigenvectors represent the direction of the principal components. They are the vectors that do not change direction when the data is transformed into the new     coordinate system. Each eigenvector corresponds to a principal component, and the length of the eigenvector represents the importance of the corresponding         principal component. The direction of the eigenvector indicates the direction of the maximum variance in the data.
+
+- To perform PCA, we first calculate the covariance matrix of the data. We then calculate the eigenvectors and eigenvalues of the covariance matrix. The             eigenvectors are sorted in descending order of their corresponding eigenvalues, and the top k eigenvectors are selected to form the new coordinate system. The     data is then transformed into the new coordinate system by multiplying it with the eigenvectors.
+
+- PCA is a powerful technique for dimensionality reduction and feature extraction. It can be used to reduce the dimensionality of high-dimensional data while       preserving the most important information. By selecting the top k principal components, we can reduce the dimensionality of the data to k dimensions while         retaining the maximum amount of variance in the data.
