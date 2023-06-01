@@ -124,3 +124,7 @@ When there are highly correlated features in a dataset, the weights for L1 and L
 - In general, the choice between L1 and L2 regularization depends on the specific characteristics of the dataset and the goals of the modeling task. If the         dataset has many irrelevant features, L1 regularization may be more effective in identifying and removing these features. If the dataset has many relevant         features, L2 regularization may be more effective in preventing overfitting and improving the generalization performance of the model.
 
 Can you use MSE for evaluating your classification problem instead of Cross entropy?
+
+How does the loss curve for Cross entropy look?
+
+
