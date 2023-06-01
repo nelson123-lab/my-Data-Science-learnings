@@ -40,3 +40,31 @@ Explain Gradient descent and Stochastic gradient descent. Which one would you pr
 
 - Overall, the choice of optimization algorithm depends on the specific problem and the characteristics of the data. It is important to evaluate the performance     of the model using different optimization algorithms to determine the best approach.
 
+Can you explain logistic regression and derive gradient descent for Logistic regression
+- Logistic regression is a binary classification algorithm that models the probability of an instance belonging to a particular class. 
+- It is a type of generalized   linear model that uses a logistic function to model the relationship between the input variables and the output variable.
+  
+- The logistic function is defined as:
+  sigmoid(z) = 1 / (1 + exp(-z))
+  where z is the linear combination of the input variables and their corresponding weights:
+  z = w0 + w1x1 + w2x2 + ... + wn*xn
+
+- The logistic regression model predicts the probability of an instance belonging to the positive class (class 1) as:
+  P(y=1|x) = sigmoid(z)
+- The probability of an instance belonging to the negative class (class 0) is:
+  P(y=0|x) = 1 - sigmoid(z)
+- The cost function for logistic regression is the negative log-likelihood function, which is given by:
+  J(w) = -1/m * sum(y*log(P) + (1-y)*log(1-P))
+  where m is the number of instances, y is the true class label (0 or 1), P is the predicted probability of the positive class, and w is the vector of weights.
+  
+- To minimize the cost function, we can use gradient descent to update the weights at each iteration. The gradient of the cost function with respect to the         weights is given by:
+  dJ/dw = 1/m * sum((P-y)*x)
+- The weight update rule for gradient descent is:
+  w = w - alpha * dJ/dw
+  where alpha is the learning rate.
+- To derive the weight update rule for logistic regression, we can substitute the sigmoid function into the gradient expression and simplify:
+  dJ/dw = 1/m * sum((sigmoid(z)-y)*x)
+  w = w - alpha * dJ/dw
+  = w - alpha * 1/m * sum((sigmoid(z)-y)*x)
+  = w - alpha * 1/m * sum((sigmoid(w*x)-y)*x)
+- This is the weight update rule for logistic regression using gradient descent. We can use this rule to iteratively update the weights until convergence.
