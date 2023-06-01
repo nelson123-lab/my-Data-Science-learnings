@@ -103,3 +103,15 @@ What are the different types of activation functions and explain about vanishing
 
 - To address the vanishing gradient problem, activation functions such as ReLU and its variants have been developed, which have gradients that do not approach       zero for large or small inputs. Additionally, techniques such as weight initialization, batch normalization, and residual connections can also help to mitigate   the vanishing gradient problem.
 
+What do L1 and L2 regularization mean and when would you use L1 vs. L2? Can you use both?
+
+- L1 and L2 regularization are techniques used to prevent overfitting in machine learning models by adding a penalty term to the loss function. The penalty term     is based on the magnitude of the weights in the model, and it encourages the model to use smaller weights, which can help to reduce overfitting.
+
+- L1 regularization, also known as Lasso regularization, adds a penalty term to the loss function that is proportional to the absolute value of the weights. This   penalty term encourages the model to use sparse weights, meaning that some of the weights will be set to zero, effectively removing some of the features from     the model. L1 regularization is useful when the data has many irrelevant features, as it can help to identify and remove these features from the model.
+
+- L2 regularization, also known as Ridge regularization, adds a penalty term to the loss function that is proportional to the square of the weights. This penalty   term encourages the model to use small weights, but it does not force any of the weights to be exactly zero. L2 regularization is useful when the data has many   relevant features, as it can help to prevent overfitting by reducing the magnitude of the weights.
+
+- Both L1 and L2 regularization can be used together, which is known as Elastic Net regularization. Elastic Net regularization combines the penalties of L1 and L2   regularization, and it can be useful when the data has many features, some of which are irrelevant and some of which are relevant.
+
+- In summary, L1 regularization is useful when the data has many irrelevant features, L2 regularization is useful when the data has many relevant features, and     Elastic Net regularization can be useful when the data has many features of both types.
+
