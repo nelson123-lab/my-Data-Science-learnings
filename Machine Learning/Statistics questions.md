@@ -14,4 +14,5 @@ What is Central Limit theorem and why is it important?
   6. Confidence intervals: The CLT is the foundation for constructing confidence intervals, which are used to estimate population parameters with a specified level of confidence.
   7. Control charts and quality control: In industrial and manufacturing settings, the CLT is used to develop control charts that help monitor and maintain the quality of products and processes.
 
-- erall, the Central Limit Theorem is a cornerstone of statistical theory and plays a crucial role in many areas of research, finance, and quality control, among others. It allows us to make inferences about populations   sed on sample data and simplifies the analysis of complex data sets.
+- Overall, the Central Limit Theorem is a cornerstone of statistical theory and plays a crucial role in many areas of research, finance, and quality control, among others. It allows us 
+  to make inferences about populations based on sample data and simplifies the analysis of complex data sets.
