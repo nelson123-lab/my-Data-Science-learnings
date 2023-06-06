@@ -47,3 +47,15 @@ What are type 1 and type 2 errors ?
   concludes that there is no significant difference or effect when in reality there is. 
 - In other words, a Type 1 error is a false positive, while a Type 2 error is a false negative. It is important to minimize both 
   types of errors in statistical analysis.
+  
+What is Linear Regression and what is p-value, coefficient, R-squared mean value. what is the significance of these?
+
+Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables. It assumes that there is a linear relationship between the variables, meaning that the change in the dependent variable is proportional to the change in the independent variable(s).
+
+In linear regression, the p-value is a measure of the statistical significance of the relationship between the independent variable(s) and the dependent variable. It indicates the probability of observing a relationship as strong as the one in the sample data, assuming that there is no true relationship in the population. A p-value less than 0.05 is typically considered statistically significant, meaning that the relationship is unlikely to have occurred by chance.
+
+The coefficient in linear regression represents the slope of the line that best fits the data. It indicates the change in the dependent variable for a one-unit increase in the independent variable, holding all other variables constant. A positive coefficient indicates a positive relationship between the variables, while a negative coefficient indicates a negative relationship.
+
+The R-squared value in linear regression represents the proportion of the variance in the dependent variable that is explained by the independent variable(s). It ranges from 0 to 1, with higher values indicating a better fit of the model to the data. R-squared can be interpreted as the percentage of the variation in the dependent variable that is explained by the independent variable(s).
+
+The significance of each of these components is that they provide information about the strength and direction of the relationship between the variables, as well as the overall fit of the model to the data. The p-value and coefficient help to determine whether the relationship is statistically significant and in what direction, while the R-squared value provides an indication of how well the model fits the data. These components are important for interpreting the results of a linear regression analysis and for making informed decisions based on the data.
