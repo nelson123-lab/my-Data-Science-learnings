@@ -35,7 +35,15 @@ What is Sampling and what are the different types of Sampling techniques do you 
         knowledge of the population. This method can be useful for exploratory research but may also be subject to bias.
      3. Quota sampling: The researcher selects a certain number of members from each subgroup (quota) based on their 
         proportion in the population. This method is similar to stratified sampling but does not involve random selection.
-     4. Snowball sampling: This method is used when the population is hard to reach or identify. The researcher starts with a small             group of initial participants and asks them to refer other members. The process continues until 
-        the desired sample size is reached.
+     4. Snowball sampling: This method is used when the population is hard to reach or identify. The researcher starts with a small group of initial participants         and asks them to refer other members. The process continues until the desired sample size is reached.
 
 - Each sampling technique has its advantages and disadvantages, and the choice of method depends on the research objectives, available resources, and the nature of the population being studied.
+
+What are type 1 and type 2 errors ?
+
+- In statistics, a Type 1 error occurs when a null hypothesis is rejected even though it is true. This means that the test concludes 
+  that there is a significant   difference or effect when in reality there is not. 
+- On the other hand, a Type 2 error occurs when a null hypothesis is not rejected even though it is false. This means that the test 
+  concludes that there is no significant difference or effect when in reality there is. 
+- In other words, a Type 1 error is a false positive, while a Type 2 error is a false negative. It is important to minimize both 
+  types of errors in statistical analysis.
