@@ -49,3 +49,24 @@ Design Youtube?
    8. Security: The platform should have strong security measures in place to protect user data and prevent hacking and cyber attacks.
 
 - Overall, designing YouTube would require a focus on creating a user-friendly and engaging platform that meets the needs of both content creators and viewers,     while also ensuring quality, security, and accessibility.
+
+Design Google contact Ranking ?
+
+- Google Contact Ranking is a feature that would allow users to rank their contacts based on their importance and relevance. Here are some key features 
+  that would need to be included in the design:
+
+   1. Ranking system: The platform should provide users with a ranking system that allows them to assign a score or rating to each contact based on their               importance and relevance.
+
+   2. Machine learning algorithms: The platform should use machine learning algorithms to analyze user behavior and interactions with their contacts to provide         personalized recommendations and rankings.
+
+   3. Contact grouping: The platform should allow users to group their contacts based on different criteria, such as work, family, or friends.
+
+   4. Contact search: The platform should provide users with a search function that allows them to quickly find and access their contacts.
+
+   5. Contact synchronization: The platform should synchronize with other contact management systems, such as Gmail or Outlook, to ensure that all contacts are         up-to-date and accurate.
+
+   6. Privacy and security: The platform should have strong privacy and security measures in place to protect user data and prevent unauthorized access.
+
+   7. Integration with other Google services: The platform should integrate with other Google services, such as Google Calendar and Google Maps, to provide a           seamless user experience.
+
+- Overall, designing Google Contact Ranking would require a focus on creating a user-friendly and personalized platform that allows users to easily manage and       prioritize their contacts based on their importance and relevance. The platform should also prioritize privacy and security, while integrating with other Google   services to provide a seamless user experience.
