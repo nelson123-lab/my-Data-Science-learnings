@@ -70,3 +70,7 @@ Design Google contact Ranking ?
    7. Integration with other Google services: The platform should integrate with other Google services, such as Google Calendar and Google Maps, to provide a           seamless user experience.
 
 - Overall, designing Google Contact Ranking would require a focus on creating a user-friendly and personalized platform that allows users to easily manage and       prioritize their contacts based on their importance and relevance. The platform should also prioritize privacy and security, while integrating with other Google   services to provide a seamless user experience.
+
+Design an item replacement recommendation(Instacart) ?
+
+
