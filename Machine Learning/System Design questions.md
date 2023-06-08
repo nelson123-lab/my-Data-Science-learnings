@@ -92,4 +92,5 @@ Design an item replacement recommendation(Instacart) ?
 
 - Overall, an item replacement recommendation system can help improve the customer experience on Instacart by providing suitable replacements for out-of-stock       items. It can also help reduce the workload of Instacart employees who currently manually suggest replacements.
 
+Design an ML System to optimize coupon distribution with a set budget(Netflix). ?
 
