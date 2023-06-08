@@ -94,3 +94,20 @@ Design an item replacement recommendation(Instacart) ?
 
 Design an ML System to optimize coupon distribution with a set budget(Netflix). ?
 
+- To start, we need to understand the problem we are trying to solve. Netflix wants to optimize the distribution of coupons to its customers while staying within   a set budget. The goal is to maximize the number of customers who use the coupons while minimizing the cost of distributing them.
+
+- Here's a high-level overview of how we can design an ML system to optimize coupon distribution with a set budget for Netflix:
+
+   1. Data Collection: We need to collect data on customer behavior, including their viewing history, preferences, and demographics. We can also collect data on         the effectiveness of previous coupon campaigns.
+
+   2. Data Preprocessing: We need to preprocess the data to remove any irrelevant or duplicate information. We can also use techniques like data normalization and       feature scaling to ensure that the data is consistent and accurate.
+
+   3. Feature Engineering: We need to extract relevant features from the data that can help us identify which customers are most likely to use the coupons. For         example, we can use the customer's viewing history to identify which genres they are most interested in.
+
+   4. Model Training: We can use machine learning algorithms like logistic regression, decision trees, or neural networks to train a model that can predict which       customers are most likely to use the coupons. We can use the collected data to train and validate the model.
+
+   5. Budget Optimization: Once the model is trained and validated, we can use it to optimize the distribution of coupons within the set budget. We can use             techniques like linear programming or dynamic programming to allocate the budget to different customer segments based on their predicted likelihood of using       the coupons.
+
+   6. Model Evaluation: We need to continuously evaluate the performance of the model to ensure that it is accurate and effective. We can use metrics like               precision, recall, and F1 score to evaluate the model's performance.
+
+- Overall, an ML system can help Netflix optimize the distribution of coupons to its customers while staying within a set budget. By collecting data,               preprocessing, feature engineering, model training, budget optimization, and model evaluation, Netflix can provide a more personalized and effective coupon       campaign to its customers.
