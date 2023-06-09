@@ -169,3 +169,10 @@ What is Dropout and why is it used in CNN?
 
 - Dropout is a regularization technique used in deep learning to prevent overfitting. It works by randomly dropping out (setting to zero) some of the neurons in a   layer during training. This forces the network to learn more robust features and prevents it from relying too much on any one feature. Dropout has been shown to   be effective in improving the generalization performance of deep neural networks.
 - In Convolutional Neural Networks (CNNs), dropout is used in a similar way to regular neural networks. It is typically applied after the pooling layers, where it   randomly drops out some of the feature maps. This helps to prevent overfitting and improves the generalization performance of the network. Dropout can also be     applied after the fully connected layers in a CNN.
+
+what is ROC Curve ?
+
+- The ROC (Receiver Operating Characteristic) curve is a graphical representation of the performance of a binary classification model. It plots the true positive   rate (TPR) against the false positive rate (FPR) at various classification thresholds. The TPR is the proportion of actual positive cases that are correctly       identified as positive by the model, while the FPR is the proportion of actual negative cases that are incorrectly identified as positive by the model.
+
+- The ROC curve is useful for evaluating the performance of a binary classification model across different classification thresholds. A perfect classifier would     have a ROC curve that passes through the top left corner of the plot (TPR=1, FPR=0), while a random classifier would have a ROC curve that is a diagonal line     from the bottom left to the top right of the plot. The area under the ROC curve (AUC) is a commonly used metric for evaluating the overall performance of a       binary classification model, with a higher AUC indicating better performance.
+
