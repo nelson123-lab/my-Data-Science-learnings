@@ -160,3 +160,7 @@ Explain how Momentum differs from RMS prop optimizer?
 
 - In summary, Momentum and RMSprop differ in how they update the weights during training. Momentum adds a fraction of the previous weight update to the current     weight update, while RMSprop uses a moving average of the squared gradients to adjust the learning rate of each weight. Both algorithms can be effective in       improving the convergence of the training process, and the choice between them depends on the specific characteristics of the problem and the architecture of     the model.
 
+What is Gradient Descent?
+
+- Gradient Descent is an optimization algorithm used to minimize the cost function of a machine learning model. It works by iteratively adjusting the model's       parameters in the direction of steepest descent of the cost function. The algorithm starts at a random point and takes steps in the direction of the negative     gradient of the cost function until it reaches a minimum. 
+- There are different types of gradient descent, including batch gradient descent, stochastic gradient descent, and mini-batch gradient descent, which differ in     the amount of data they use to update the model's parameters.
