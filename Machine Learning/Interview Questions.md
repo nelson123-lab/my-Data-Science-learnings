@@ -164,3 +164,8 @@ What is Gradient Descent?
 
 - Gradient Descent is an optimization algorithm used to minimize the cost function of a machine learning model. It works by iteratively adjusting the model's       parameters in the direction of steepest descent of the cost function. The algorithm starts at a random point and takes steps in the direction of the negative     gradient of the cost function until it reaches a minimum. 
 - There are different types of gradient descent, including batch gradient descent, stochastic gradient descent, and mini-batch gradient descent, which differ in     the amount of data they use to update the model's parameters.
+
+What is Dropout and why is it used in CNN?
+
+- Dropout is a regularization technique used in deep learning to prevent overfitting. It works by randomly dropping out (setting to zero) some of the neurons in a   layer during training. This forces the network to learn more robust features and prevents it from relying too much on any one feature. Dropout has been shown to   be effective in improving the generalization performance of deep neural networks.
+- In Convolutional Neural Networks (CNNs), dropout is used in a similar way to regular neural networks. It is typically applied after the pooling layers, where it   randomly drops out some of the feature maps. This helps to prevent overfitting and improves the generalization performance of the network. Dropout can also be     applied after the fully connected layers in a CNN.
