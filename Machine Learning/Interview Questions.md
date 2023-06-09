@@ -176,3 +176,16 @@ what is ROC Curve ?
 
 - The ROC curve is useful for evaluating the performance of a binary classification model across different classification thresholds. A perfect classifier would     have a ROC curve that passes through the top left corner of the plot (TPR=1, FPR=0), while a random classifier would have a ROC curve that is a diagonal line     from the bottom left to the top right of the plot. The area under the ROC curve (AUC) is a commonly used metric for evaluating the overall performance of a       binary classification model, with a higher AUC indicating better performance.
 
+What is F1 score and how do we calculate it and why do we calculate it?
+
+- The F1 score is a commonly used metric for evaluating the performance of a binary classification model. It is the harmonic mean of precision and recall, two       other commonly used metrics.
+
+- Precision is the proportion of true positive predictions out of all positive predictions made by the model, while recall is the proportion of true positive       predictions out of all actual positive cases in the dataset. The F1 score balances these two metrics, giving equal weight to precision and recall.
+
+- The formula for calculating the F1 score is:
+
+- F1 = 2 * (precision * recall) / (precision + recall)
+
+- The F1 score ranges from 0 to 1, with a higher score indicating better performance. A perfect classifier would have an F1 score of 1, while a random classifier   would have an F1 score of 0.5.
+
+- We calculate the F1 score to evaluate the overall performance of a binary classification model, taking into account both precision and recall. It is               particularly useful when the dataset is imbalanced, meaning that one class is much more prevalent than the other. In such cases, accuracy can be a misleading     metric, as a classifier that always predicts the majority class would have a high accuracy but may perform poorly on the minority class. The F1 score provides a   more balanced evaluation of the model's performance on both classes.
