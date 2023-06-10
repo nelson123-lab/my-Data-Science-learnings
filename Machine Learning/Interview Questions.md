@@ -189,3 +189,10 @@ What is F1 score and how do we calculate it and why do we calculate it?
 - The F1 score ranges from 0 to 1, with a higher score indicating better performance. A perfect classifier would have an F1 score of 1, while a random classifier   would have an F1 score of 0.5.
 
 - We calculate the F1 score to evaluate the overall performance of a binary classification model, taking into account both precision and recall. It is               particularly useful when the dataset is imbalanced, meaning that one class is much more prevalent than the other. In such cases, accuracy can be a misleading     metric, as a classifier that always predicts the majority class would have a high accuracy but may perform poorly on the minority class. The F1 score provides a   more balanced evaluation of the model's performance on both classes.
+
+
+What is the difference between an error and a residual error?
+
+- In statistics and optimization, error and residual are two related but distinct concepts. Both are measures of the deviation of an observed value from its true   value, which may not be directly observable. 
+- The error is the difference between the observed value and the true value of a quantity, while the residual is the difference between the observed value and the   estimated value of the quantity. 
+- In regression analysis, the error is also known as the regression error, while the residual is known as the regression residual. The distinction between the two   is important in regression analysis, where the goal is to estimate the relationship between a dependent variable and one or more independent variables.
