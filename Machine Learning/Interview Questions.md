@@ -216,3 +216,9 @@ Choosing a classifier based on the training set data size involves considering v
 7. **Prior knowledge and domain expertise:** Leverage your prior knowledge or domain expertise. Understanding the characteristics of your data, the nature of the problem you are solving, and potential relationships between features can guide your choice of classifier. Certain algorithms may be more appropriate for specific types of data or problem domains.
 
 Remember that these guidelines are not definitive rules, and the choice of classifier ultimately depends on multiple factors and experimentation. It's advisable to compare the performance of different classifiers using appropriate evaluation metrics and techniques, such as cross-validation, to select the one that yields the best results for your specific dataset and problem.
+
+What is ensemble learning?
+- Ensemble learning is a machine learning technique that involves combining multiple models to improve the overall performance of the system. The idea behind 
+  ensemble learning is that by combining several weak models, we can create a strong model that is more accurate and robust than any of the individual models. 
+  The models used in ensemble learning can be of the same type or different types, and they can be trained on the same or different datasets. There are several 
+  techniques for ensemble learning, including bagging, boosting, and stacking.
