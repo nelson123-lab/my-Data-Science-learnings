@@ -12,4 +12,8 @@ To upgrade pip
 - Sort dictionaries according with the keys
   dict(sorted(res.items()))
 
+To sort dictonaries according to the values
+p = sorted(record.items(),key=lambda x: x[1])
+print(p)
+
 
