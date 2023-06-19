@@ -8,5 +8,8 @@ noclubs = [x for x in suits if x != "c"]
 
 To upgrade pip
   python -m pip install --upgrade pip    
+  
+- Sort dictionaries according with the keys
+  dict(sorted(res.items()))
 
 
