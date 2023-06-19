@@ -4,5 +4,9 @@
 suits = ["h","c", "d", "s"]
 noclubs = [x for x in suits if x != "c"]
 
+## General Notes
+
+To upgrade pip
+  python -m pip install --upgrade pip    
 
 
