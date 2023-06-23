@@ -228,17 +228,25 @@ You are building a binary classifier and you found that the data is imbalanced, 
 1. Pre-Processing:
 Check whether you can get more data or not.
 
-➡ Use sampling techniques (Up Sample minority class, Downsample majority class, can take the hybrid approach as well). We can also use data augmentation to add more data points for the minority class but with little deviations/changes leading to new data points which are similar to the ones they are derived from. The most common/popular technique is SMOTE (Synthetic Minority Oversampling technique)
-➡ Suppression: Though not recommended, we can drop off some features directly responsible for the imbalance.
-➡ Learning Fair Representation: Projecting the training examples to a subspace or plane minimizes the data imbalance.
-➡ Re-Weighting: We can assign some weights to each training example to reduce the imbalance in the data.
+  ➡ Use sampling techniques (Up Sample minority class, Downsample majority class, can take the hybrid approach as well). We can also        use data augmentation to add more data points for the minority class but with little deviations/changes leading to new data points 
+     which are similar to the ones they are derived from. The most common/popular technique is SMOTE (Synthetic Minority Oversampling 
+     technique)
+  ➡ Suppression: Though not recommended, we can drop off some features directly responsible for the imbalance.
+  ➡ Learning Fair Representation: Projecting the training examples to a subspace or plane minimizes the data imbalance.
+  ➡ Re-Weighting: We can assign some weights to each training example to reduce the imbalance in the data.
 
 2. In-Processing:
-➡ Regularisation: We can add score terms that measure the data imbalance in the loss function and therefore minimizing the loss function will also minimize the degree of imbalance with respect to the score chosen which also indirectly minimizes other metrics which measure the degree of data imbalance.
+  ➡ Regularisation: We can add score terms that measure the data imbalance in the loss function and therefore minimizing the loss 
+     function will also minimize the degree of imbalance with respect to the score chosen which also indirectly minimizes other metrics 
+     which measure the degree of data imbalance.
 
-➡ Adversarial Debiasing: Here we use the adversarial notion to train the model where the discriminator tries to detect if there are signs of data imbalance in the predicted data by the generator and hence the generator learns to generate data that is less prone to imbalance.
+  ➡ Adversarial Debiasing: Here we use the adversarial notion to train the model where the discriminator tries to detect if there are 
+     signs of data imbalance in the predicted data by the generator and hence the generator learns to generate data that is less prone 
+     to imbalance.
 
 3. Post-Processing:
-➡ Odds-Equalization: Here we try to equalize the odds for the classes wrt the data is imbalanced for correct imbalance in the trained model. Usually, the F1 score is a good choice, if both precision and recall scores are important
+  ➡ Odds-Equalization: Here we try to equalize the odds for the classes wrt the data is imbalanced for correct imbalance in the 
+     trained model. Usually, the F1 score is a good choice, if both precision and recall scores are important
 
-➡ Choose appropriate performance metrics. For example, accuracy is not a correct metric to use when classes are imbalanced. Instead, use precision, recall, F1 score, and ROC curve.
+  ➡ Choose appropriate performance metrics. For example, accuracy is not a correct metric to use when classes are imbalanced. Instead, 
+     use precision, recall, F1 score, and ROC curve.
