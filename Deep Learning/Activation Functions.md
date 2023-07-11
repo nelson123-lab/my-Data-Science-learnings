@@ -10,8 +10,11 @@
 
 - Here are three different types of activation functions commonly used in neural networks:
 
-1. Sigmoid Activation Function: The sigmoid function, also known as the logistic function, maps the input to a value between 0 and 1. It is defined as f(x) = 1 / (1 + e^(-x)). Sigmoid functions are useful in binary classification tasks where the output needs to be interpreted as a probability.
+1. Sigmoid Activation Function:
+   - The sigmoid function, also known as the logistic function, maps the input to a value between 0 and 1. It is defined as f(x) = 1 / (1 + e^(-x)). Sigmoid functions are useful in binary classification tasks where the output needs to be interpreted as a probability.
 
-2. Rectified Linear Unit (ReLU): The ReLU activation function is defined as f(x) = max(0, x). It returns the input value if it is positive, and zero otherwise. ReLU is widely used in deep learning due to its simplicity and ability to mitigate the vanishing gradient problem. It helps the network learn faster and can improve its performance.
+2. Rectified Linear Unit (ReLU):
+   - The ReLU activation function is defined as f(x) = max(0, x). It returns the input value if it is positive, and zero otherwise. ReLU is widely used in deep learning due to its simplicity and ability to mitigate the vanishing gradient problem. It helps the network learn faster and can improve its performance.
 
-3. Hyperbolic Tangent (tanh) Activation Function: The tanh function maps the input to a value between -1 and 1. It is defined as f(x) = (e^x - e^(-x)) / (e^x + e^(-x)). Tanh functions are similar to sigmoid functions but have a range from -1 to 1. They are useful in scenarios where the output needs to be centered around zero, such as in image classification tasks.
+3. Hyperbolic Tangent (tanh) Activation Function:
+   - The tanh function maps the input to a value between -1 and 1. It is defined as f(x) = (e^x - e^(-x)) / (e^x + e^(-x)). Tanh functions are similar to sigmoid functions but have a range from -1 to 1. They are useful in scenarios where the output needs to be centered around zero, such as in image classification tasks.
