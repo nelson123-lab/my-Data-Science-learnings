@@ -1,1 +1,1 @@
-
+You are using a deep neural network for a prediction task. After training your model, you notics that it is strongly overfitting the training set and that the performance on the test isn't good. what can you do to reduce the overfitting.?
