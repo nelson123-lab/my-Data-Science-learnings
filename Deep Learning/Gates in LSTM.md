@@ -1,3 +1,5 @@
+what are the main gates in LSTM and what are their tasks?
+
 In Long Short-Term Memory (LSTM) networks, there are three main gates: the input gate, the forget gate, and the output gate. Each gate performs a specific task in the LSTM architecture.
 
 1. Input Gate: The input gate determines how much information from the current input should be stored in the cell state. It takes the current input and the previous hidden state as inputs and applies a sigmoid activation function. This gate controls the flow of information into the cell state.
