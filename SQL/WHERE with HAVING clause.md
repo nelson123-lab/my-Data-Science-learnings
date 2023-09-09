@@ -11,7 +11,7 @@ For example, let's say you have a table of sales data and you want to find the t
 
 Here's an example query:
 
-```
+```sql
 SELECT product_category, SUM(sales_amount) AS total_sales
 FROM sales_table
 WHERE sales_date BETWEEN '2023-01-01' AND '2023-09-09'
@@ -39,3 +39,19 @@ HAVING total_sales > 1000;
 ```
 
 In this example, the "HAVING" clause is used to filter the groups based on the aggregate condition of total sales greater than 1000. Since there is no "WHERE" clause, all rows from the table are considered for aggregation.
+
+The "GROUP BY" clause is used to group rows based on one or more columns, and the "HAVING" clause is used to filter those groups based on aggregate conditions.
+
+Here's an example to illustrate the correct usage of the "HAVING" clause with the "GROUP BY" clause:
+
+```sql
+SELECT product_category, SUM(sales_amount) AS total_sales
+FROM sales_table
+GROUP BY product_category
+HAVING SUM(sales_amount) > 1000;
+```
+
+In this example, the "GROUP BY" clause groups the rows by the "product_category" column, and the "HAVING" clause filters the groups based on the aggregate condition of the total sales amount being greater than 1000.
+
+So, to clarify, the "HAVING" clause cannot be used without the "GROUP BY" clause. It is specifically designed to filter groups in aggregate queries. The "WHERE" clause, on the other hand, is used for row-level filtering before grouping the data.
+
