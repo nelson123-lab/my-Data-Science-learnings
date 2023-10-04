@@ -12,12 +12,12 @@ Check whether the battery ran down please.
 Check whether the program ran please.
 
 A Markov chain illustrates a first order model for this.
-<p align="center"><img src="image_data in readme/markov_chain_2.png" width="800" height="440"></p>
+<p align="center"><img src="https://github.com/nelson123-lab/my-Data-Science-learnings/blob/e29af0bf45387c02ce9a24a872b89a556e887101/image_data%20in%20readme/markov_chain_2.png" width="800" height="440"></p>
 
 The first order transition matrics will be as follows:-
-<p align="center"><img src="image_data in readme/transition_matrix_first_order_2.png" width="900" height="900"></p>
+<p align="center"><img src="https://github.com/nelson123-lab/my-Data-Science-learnings/blob/e29af0bf45387c02ce9a24a872b89a556e887101/image_data%20in%20readme/transition_matrix_first_order_2.png" height="900"></p>
 
 For the second order the representation will be as follows:-
-<p align="center"><img src="image_data in readme/transition_matrix_second_order.png" width="900" height="900"></p>
+<p align="center"><img src="https://github.com/nelson123-lab/my-Data-Science-learnings/blob/e29af0bf45387c02ce9a24a872b89a556e887101/image_data%20in%20readme/transition_matrix_second_order.png" width="900" height="900"></p>
 
 Notice how the second order matrix has a separate row for every combination of words (most of which are not shown here). That means that if we start with a vocabulary size of N then the transition matrix has N^2 rows.
