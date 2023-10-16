@@ -1,0 +1,9 @@
+- Data Collection
+- Data Preprocessing
+- Deciding the Model depending on the data.
+- Splitting the data into train and test.
+- Using inputs to train the model and compareing with the targets to find the loss each time. The model then tries to reduce the loss.
+- Finding the best parameters for the model
+- Saving the model
+- Loading the saved model and doing the inferencing on new data.
+- Deploying the model for testing with new data.
