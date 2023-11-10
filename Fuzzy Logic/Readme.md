@@ -6,7 +6,7 @@ Fuzzy logic is the process of converting the results from a binary output to a r
   whether a person is having good, neutral and bad credit score. These functions are called **membership function** in fuzzy logic.
 
 <div align="center"><img src="https://github.com/nelson123-lab/my-Data-Science-learnings/blob/1d89495ff6e0c5a2a02e9da679158731a9ad6bb0/Fuzzy%20Logic/Fuzzy%20Inference%20system.png" width="900"/></div>
-
+The above image shows the steps in the fuzzifization and the process involved.
 <div align="center"><img src="https://github.com/nelson123-lab/my-Data-Science-learnings/blob/1d89495ff6e0c5a2a02e9da679158731a9ad6bb0/Fuzzy%20Logic/Fuzzification.png" width="900"/></div>
 
 
