@@ -19,5 +19,7 @@ Fuzzy logic is the process of converting the results from a binary output to a r
 
 - Now from the range of the values we need get the crisp output. Applying defuzzification, we get the crisp output. Here, Centroid of the common area is used to
   determine the crisp output.
+
 References:
+
 - [What Is Fuzzy Logic? | Fuzzy Logic, Part 1](https://youtu.be/__0nZuG4sTw)
