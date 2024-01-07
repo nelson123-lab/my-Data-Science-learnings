@@ -30,3 +30,8 @@ print(p)
   del nums[i:]
 ```
 
+## To exclude any particular element using concatenation.
+```python
+for i in range(len(arr):
+  if arr[i]*2 in (arr[ : i ]+arr[i+1 : ])
+```
