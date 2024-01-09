@@ -11,3 +11,5 @@ Skills Shown: Data cleaning & prep, ETL, data modeling, data viz, business recom
 
 4. A Funnel Analysis
 Skills Shown: Data prep and wrangling, translating a business problem into data, project scoping, developing insights, making business recommendations to stakeholders, and storytelling (check out my payment funnel analysis in my course Solve Real-World Data Problems in SQL!)
+
+-- credits: Jess Ramos, MSBA
