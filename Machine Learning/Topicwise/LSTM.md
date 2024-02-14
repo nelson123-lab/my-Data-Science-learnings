@@ -1,8 +1,10 @@
+## LSTM
 LSTM (Long Short-Term Memory) is a type of recurrent neural network (RNN) architecture that addresses the vanishing gradient problem, which is a challenge faced by traditional RNNs. The vanishing gradient 
 problem occurs when the gradients used to update the weights during backpropagation diminish exponentially as they propagate through time steps, making it difficult for the network to learn long-term dependencies.
 
-LSTM overcomes the vanishing gradient problem by introducing a memory cell and three gating mechanisms: the input gate, the forget gate, and the output gate. These gates control the flow of information within 
+- LSTM overcomes the vanishing gradient problem by introducing a memory cell and three gating mechanisms: the input gate, the forget gate, and the output gate. These gates control the flow of information within 
 the LSTM unit, allowing it to selectively retain or discard information at each time step.
+- The core idea of LSTM is to have a mechanism that selectively retains or discards information over time. This is achieved through various gates: the forget gate, input gate, and output gate. 
 
 Here's how LSTM works:
 
@@ -19,4 +21,8 @@ Here's how LSTM works:
 
 By using these gating mechanisms, LSTM can selectively retain or discard information, allowing it to capture long-term dependencies more effectively. The memory cell and the gating mechanisms enable LSTM to mitigate the vanishing gradient problem by allowing gradients to flow more consistently through time, facilitating the learning of long-term dependencies.
 
-LSTM has been widely used in various applications, including natural language processing, speech recognition, and time series analysis, where capturing long-term dependencies is crucial for accurate predictions.
+LSTM has two hidden states that passes through each time step. LSTM has it's own memory cell with neural networks to make decision what to remember and what to forget.
+
+References:
+[Fool-proof RNN explanation](https://youtu.be/y9PLF2GsD-c)
+[RNN and LSTM](https://youtu.be/WCUNPb-5EYI)
