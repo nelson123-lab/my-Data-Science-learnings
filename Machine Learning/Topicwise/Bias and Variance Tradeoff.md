@@ -27,3 +27,17 @@
 
 ### Trade-off:
 - **Definition**: Tension between the error introduced by the bias and the variance.
+
+## Bias and Variance of different machine learning models
+
+| Algorithm               | Bias       | Variance   | Description                                                                                   |
+|-------------------------|------------|------------|-----------------------------------------------------------------------------------------------|
+| Linear Regression       | High       | Low        | Assumes linear relationship, may underfit complex data.                                        |
+| Decision Trees          | Low        | High       | Can represent complex boundaries, prone to overfitting noisy data.                             |
+| K-Nearest Neighbors     | Low        | High       | Makes few assumptions, can overfit with small values of K.                                      |
+| Support Vector Machines | Low        | High       | Can capture intricate relationships, may overfit without proper tuning or with small datasets. |
+| Logistic Regression     | Moderate   | Moderate   | Assumes linear relationship, moderate capacity to capture nonlinearity.                         |
+| Random Forests          | Moderate   | Moderate   | Ensemble method reduces variance compared to individual trees.                                 |
+| Gradient Boosting Machines | Moderate | Moderate | Sequentially fits trees to residuals, balances bias and variance through boosting.              |
+| Neural Networks         | Variable   | Variable   | Highly flexible, bias-variance trade-off depends on architecture, regularization, and data.    |
+
