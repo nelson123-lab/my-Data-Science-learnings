@@ -627,3 +627,7 @@ If 199 out of 200 partitions are successfully executed, but the job encounters a
    - Seek assistance from Spark community forums, mailing lists, or online communities to get insights and advice from experienced Spark users and developers.
 
 By systematically analyzing the error, monitoring job progress and resource utilization, and applying optimization techniques, you can diagnose and resolve issues affecting the successful completion of Spark jobs.
+
+References:-
+
+- [Common spark interview questions](https://www.linkedin.com/posts/bigdatabysumit_pyspark-dataengineering-bigdata-activity-7165276340227698688-zYhH?utm_source=share&utm_medium=member_desktop)
