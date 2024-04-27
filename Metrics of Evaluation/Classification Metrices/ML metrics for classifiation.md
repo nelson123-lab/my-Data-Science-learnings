@@ -53,12 +53,14 @@ In this confusion matrix:
 
 2. **Precision**:
    - Precision measures the proportion of true positive predictions among all positive predictions made by the model.
+   - Out of all instances predicted as postive by the model how many of them are actually positive?
    - Formula: Precision = TP / (TP + FP)
    - Use: Precision is useful when the cost of false positives is high. For example, in medical diagnosis, precision indicates the ratio of correctly identified cases to all cases identified as positive.
    - Precision is about minimizing false positives, ensuring that positive predictions are accurate and relevant.
 
 3. **Recall (Sensitivity)**:
    - Recall measures the proportion of true positive predictions among all actual positive instances in the dataset.
+   - Out of all actual positive instances how many of them are correctly predicted by the model as positive.
    - Formula: Recall = TP / (TP + FN)
    - Use: Recall is crucial when missing positive instances is costly. For example, in disease detection, recall indicates the proportion of actual positive cases that were correctly identified.
    - Recall is about minimizing false negatives, ensuring that relevant instances are not missed.
@@ -67,4 +69,9 @@ In this confusion matrix:
    - F1 score is the harmonic mean of precision and recall. It balances both precision and recall.
    - Formula: F1 Score = 2 * (Precision * Recall) / (Precision + Recall)
    - Use: F1 score provides a single metric that balances between precision and recall. It's particularly useful when you want to compare models and you need to consider both false positives and false negatives.
+
+5. ROC-AUC
+   - For each probability value
+     - How many times the model made a good assessment.
+     - How many times the model made a wrong assessment.
 
