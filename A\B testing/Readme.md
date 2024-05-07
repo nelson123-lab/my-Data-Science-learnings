@@ -1,6 +1,7 @@
-- A/B Testing is neccessary when a trained machine learning model is deployed online to the users. Even though the models that performed well
-in the pre-deployment (offline deployment) might not provide expected results in post deployment (Online deployement).
-- This is similar to testing models on Real world data after testing on Test data.
+## A/B Testing
+- A/B Testing is necessary when a trained machine learning model is deployed online to the users. Even though the models that performed well
+in the pre-deployment (offline deployment) might not provide expected results in post-deployment (Online deployment).
+- This is similar to testing models on Real-world data after testing on Test data.
 
 The concept of A/B testing relates closely to the statement "Making decisions is easy — what’s hard is making the right decisions." This connection can be understood in several ways:
 
@@ -19,3 +20,11 @@ The concept of A/B testing relates closely to the statement "Making decisions is
 7. **Objective Analysis Over Gut Feeling**: While making a decision is straightforward, ensuring it is the correct one involves careful analysis and consideration of facts. A/B testing replaces gut feeling and speculation with objective analysis.
 
 In summary, A/B testing embodies the principle that while decision-making might be straightforward, ensuring the decisions are correct is more complex. It provides a structured, data-driven approach to discerning the most effective choice among alternatives, aligning perfectly with the ethos of making the 'right' decisions.
+
+## When not to use A/B Test
+
+1) Lack of proper infrastructure - Having a data engineering infrastructure is reliable ( Smaller companies won't have the dedicated infrastructure to conduct complex A/B Tests).
+2) Lack of Impact - Is the benefit or the profit it's gonna get way more than the time and resources to conduct the test?
+3) Lack of traffic - We won't be able to conduct an A/B Test without having enough users using a feature.
+4) Lack of Conviction - Different variations of the same feature might be required in the testing process when we are doing A/B testing for a high-traffic and high-value feature. ( Add to cart, Buy now buttons in most of the top e-commerce platforms.)
+5) Lack of isolation - An isolation is required for a test to work properly.
