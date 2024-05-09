@@ -1,42 +1,16 @@
 # Different types of Feature selection methods
 
-## 1) Filter methods
-- Include simple statistical tests like Anova or chi-square test.
-- Independent of the ML algorithm.
-- Discriminate features based only on the feature characteristics.
+Sure, here's the information organized into a table format:
 
-### Advantages 
-- Quick feature removal
-- Model agnostic
-- Fast computation
-
-### Disadvantages
-- Does not capture redundancy
-- Does not capture Feature interaction
-- Poor model performance.
-
-## 2) Wrapper methods
-- Takes into consideration of ML algorithms.
-- Evaluate group of features.
-
-### Advantages 
-- Considers feature Interaction.
-- Best performance
-- Best feature subset for a given algorithm.
-
-### Disadvantages
-- Not model agnostic ( The features for one model will not be best for different ML models)
-- Computationally expensive ( ML model for each feature combinations )
-- Often impracticable when the data is large.
-
-## 3) Embedded methods
-- Feature selection during training of ML algorithm
-
-### Advantages 
-- Good model performance
-- Capture feature interaction
-- Better than filter methods
-- Faster than wrapper methods
-
-### Disadvantages
-- Not model agnostic
+| Method           | Description                                                                                      | Advantages                                  | Disadvantages                                           |
+|------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------|---------------------------------------------------------|
+| Filter methods   | Utilize simple statistical tests like Anova or chi-square test. Independent of ML algorithm.    | - Quick feature removal                    | - Does not capture redundancy                           |
+|                  | Discriminate features based only on the feature characteristics.                                | - Model agnostic                           | - Does not capture feature interaction                  |
+|                  |                                                                                                  | - Fast computation                         | - Poor model performance                                |
+| Wrapper methods  | Take into consideration ML algorithms. Evaluate groups of features.                             | - Considers feature interaction            | - Not model agnostic (features optimized for one model may not be best for others) |
+|                  |                                                                                                  | - Best performance                         | - Computationally expensive (ML model for each feature combination) |
+|                  |                                                                                                  | - Best feature subset for a given algorithm | - Often impracticable with large datasets               |
+| Embedded methods | Feature selection during training of ML algorithms.                                               | - Good model performance                  | - Not model agnostic                                    |
+|                  |                                                                                                  | - Capture feature interaction             |                                                         |
+|                  |                                                                                                  | - Faster than wrapper methods             |                                                         |
+|                  |                                                                                                  | - Better than filter methods               |                                                         |
