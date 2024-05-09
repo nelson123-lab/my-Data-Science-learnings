@@ -1,6 +1,5 @@
 # Different types of Feature selection methods
 
-Sure, here's the information organized into a table format:
 
 | Method           | Description                                                                                      | Advantages                                  | Disadvantages                                           |
 |------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------|---------------------------------------------------------|
